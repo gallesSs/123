@@ -1,0 +1,52 @@
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+// varaibles
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-red : rgba(250,26,26,1); //0 %
+$color-yellow : rgba(249,255,0,1); // 100%
+* {
+  margin : 0;
+  padding : 0;
+}
+
+.section-heading {
+  text-align : center;
+}
+
+
+.heading-secondary {
+  font-size : 2rem;
+  text-transform : uppercase;
+  letter-spacing : .2rem;
+  
+  display: inline-block;
+   background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 400% 400%;
+	  animation: gradient 5s ease infinite;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
